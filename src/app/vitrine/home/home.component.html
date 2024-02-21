@@ -1,0 +1,30 @@
+<h1 align="center"> Page Vitrine </h1>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Home page</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/vitrine']">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/vitrine/apropos']">Apropos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/vitrine/contact']">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/dashboard']">login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/vitrine/signup']">registration</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+Bienvenue sur notre site gestibanque
+<router-outlet></router-outlet>
