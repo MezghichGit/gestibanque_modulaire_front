@@ -7,6 +7,8 @@ import { AproposComponent } from './apropos/apropos.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { AppRoutingModule } from '../app-routing.module';
+import { BrowserModule } from '@angular/platform-browser';
 
 
 @NgModule({
@@ -19,7 +21,8 @@ import { SignupComponent } from './signup/signup.component';
   ],
   imports: [
     CommonModule,
-    VitrineRoutingModule
+    VitrineRoutingModule,
+   
   ]
 })
 export class VitrineModule { }
